@@ -1,3 +1,14 @@
+#include <ctime>
+#include <fstream>
+#include <iostream>
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+using namespace std;
+
+#include "WAV.h"
+
 /* Prototypes */
 void convolve(float x[], int N, float h[], int M, float y[], int P);
 
