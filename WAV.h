@@ -29,6 +29,6 @@ class WAV
 
 		// Helper function prototypes: read/write
 		// Reference: https://github.com/rsbarhey/CPSC501-A4/blob/master/V2.0/WaveFile.h
-		float* readWAV(char *fName, float *signal, int *size);
-		void writeWAV(char* fName, int numSamples, float *size);
+		float* readWAV(char *filename, float *signal, int *Thesize);
+		void writeWAV(char* fileName, int numSamples, float *size);
 };
